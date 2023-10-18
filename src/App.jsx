@@ -2,6 +2,7 @@ import Button from "@material-ui/core/Button";
 import { useState } from "react";
 import "./App.css";
 import reactLogo from "./assets/react.svg";
+import { Sidebar } from "./components/Navbar.jsx";
 import viteLogo from "/vite.svg";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
 	return (
 		<>
 			<div>
+				<Sidebar />
 				<a href="https://vitejs.dev" target="_blank">
 					<img src={viteLogo} className="logo" alt="Vite logo" />
 				</a>

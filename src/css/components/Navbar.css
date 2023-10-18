@@ -1,0 +1,45 @@
+.navbar{
+    /*Positioning*/
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    /*Size*/
+    height: 100vh;
+    max-width: 10vw;
+    overflow: hidden;
+}
+
+.navbar__menu{
+    /*Size*/
+    height: inherit;
+    max-width: inherit;
+}
+
+.navbar__menu ul{
+    /*Size*/
+    height: 100vh;
+    max-width: inherit;
+    font-size: 1.5rem;
+
+    /*Allignment*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+    padding-left: 1vw;
+    list-style-type: none;
+}
+
+li a{
+    /*Allignment*/
+    text-align: left;
+
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    color: #f1f1f1;
+}
