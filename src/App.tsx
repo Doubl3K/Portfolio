@@ -13,9 +13,10 @@ function App() {
         <CssBaseline />
       </div>
 
-      <div className='ui'>
+      <div className="ui bg-dark">
         <h1>Kevin Kinner</h1>
-        <p>WebDev who makes code go brr, until exceptions and beyond</p>
+        <p className='underline font-bold bg-red-700'>WebDev who makes code go brr, until exceptions and beyond</p>
+        <button>test</button>
       </div>
     
     </>
