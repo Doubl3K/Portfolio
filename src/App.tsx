@@ -1,29 +1,23 @@
-import { useState } from 'react';
+import CssBaseline from '@mui/material/CssBaseline';
 import './App.css';
 import Header from "./Meta/header";
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+
+      <div className="meta">
         <Header />
+        <CssBaseline />
+      </div>
+
+      <div className='ui'>
+        <h1>Kevin Kinner</h1>
+        <p>WebDev who makes code go brr, until exceptions and beyond</p>
+      </div>
     
-      <div>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
