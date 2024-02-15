@@ -1,3 +1,4 @@
+import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
 import './App.css';
 import Header from "./Meta/header";
@@ -7,16 +8,14 @@ function App() {
 
   return (
     <>
-
-      <div className="meta">
         <Header />
         <CssBaseline />
-      </div>
+      
 
-      <div className="ui bg-dark">
+      <div className="ui">
         <h1>Kevin Kinner</h1>
         <p className='underline font-bold bg-red-700'>WebDev who makes code go brr, until exceptions and beyond</p>
-        <button>test</button>
+        <Button variant="contained">Contained</Button>
       </div>
     
     </>
